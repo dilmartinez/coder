@@ -1,0 +1,32 @@
+.contenedor{
+    background-color: #c292f0;
+    height: 100px;
+    width: 300px;
+
+    /*clases de flex*/
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: flex-start;
+    align-content:space-around;
+
+    /*justificar items
+    justify-content:space-evenly;*/
+
+    /*aliniar los items
+    align-items: flex-end; */
+}
+.contenedor div{
+    background-color: aqua;
+    border: solid 1px red;
+}
+/* tamaños de fuentes
+.item1{
+    font-size: 20px;
+}
+.item2{
+    font-size: 15px;
+}
+.item3{
+    font-size: 25px;
+}
